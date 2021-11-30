@@ -25,7 +25,7 @@ hs_err_pid*
 .idea/
 *.iml
 
-target
+auth/target
 out
 /.idea/
 /.idea/libraries/

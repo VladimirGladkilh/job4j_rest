@@ -14,9 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e98d7db-45cf-4161-b65f-8a6ace49ceef" name="Default Changelist" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/ru/job4j/auth/controller/ReportsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/ru/job4j/auth/domain/Report.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/ru/job4j/auth/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/ru/job4j/auth/domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/test/java/ru/job4j/auth/controller/PersonControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/test/java/ru/job4j/auth/controller/PersonControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/ru/job4j/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/ru/job4j/auth/AuthApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1xiSLGc9HzXIQL0WacQ5LtoXwDp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +68,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.job4j.auth.controller" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\job4j_rest" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -72,7 +78,7 @@
       <recent name="C:\projects\job4j_rest\auth\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonControllerTest">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -190,7 +196,7 @@
       <updated>1630836360243</updated>
       <workItem from="1630836361547" duration="6588000" />
       <workItem from="1632482529949" duration="40000" />
-      <workItem from="1638257854825" duration="2349000" />
+      <workItem from="1638257854825" duration="3710000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1630842646676</created>
@@ -199,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630842646676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0. RESTFull. Описание архитектуры [#6884]">
+      <created>1638267088208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638267088208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0. RESTFull. Описание архитектуры [#6884]">
+      <created>1638268124045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638268124045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,61 +239,64 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="0. RESTFull. Описание архитектуры [#6884]" />
+    <option name="LAST_COMMIT_MESSAGE" value="0. RESTFull. Описание архитектуры [#6884]" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630837874822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630837874822" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1638265532848">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1638267269663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638265532848" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638267269663" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1630842467921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1630842467921" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1638266693161">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638266693161" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1638266693161">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638266693161" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1638266693161">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638266693161" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1638266693161">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638266693161" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1638266699832">
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638266699832" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1638266699832">
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.1.center" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638266699832" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1638266699832">
+    <state width="1877" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.1.left" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638266699832" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1638266699832">
+    <state width="1877" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
+    <state width="1877" height="274" key="GridCell.Tab.1.right" timestamp="1638267667062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638266699832" />
+    <state width="1877" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638267667062" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1630841690158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630841690158" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1630842909960">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1638268133066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1630842909960" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638268133066" />
     <state x="731" y="293" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1638258082358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
